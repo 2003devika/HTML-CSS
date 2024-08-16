@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #aaa9a9;
+}
+
+.container{
+    width: 84%;
+    height: 650px;
+    background-color: white;
+    margin: 35px auto;
+    border: 1px solid rgb(118, 117, 117);
+}
+
+.header{
+    width: 100%;
+    height: 140px;
+    background-color: white;
+    padding-top: 10px;
+    display: flex;
+    /* border-bottom: 1px solid black; */
+}
+
+.left{
+    width: 50%;
+    height: 130px;
+    background-color: white;
+}
+
+.left>img{
+    width: 100%;
+    /* border-bottom: 1px solid black; */
+    height: 140px;
+}
+
+.right{
+    width:50%;
+    height:140px;
+    background-color: white;
+    /* border: 1px solid black; */
+    margin-left: 200px;
+}
+
+.right > .topic{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    font-size: 25px;
+    color: #6a6969;
+    background-color: white;
+    padding: 15px;
+}
+
+.topic>p{
+    background-color: white;
+}
+
+.right > .navbar{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+
+nav > ul{
+    display: flex;
+    list-style: none;
+    background-color: white;
+    text-decoration: none;
+}
+
+li{
+    background-color: white;
+    padding: 8px;
+}
+
+a{
+   padding-right: 30px;
+   background-color: white;
+   text-decoration: none;
+   font-size: 14px;
+   font-family:'segoe UI' ;
+   font-weight: 600;
+   color: black;
+}
+
+.bottom{
+    width: 98%;
+    background-color: white;
+    /* border: 1px solid black; */
+    margin: 30px auto;
+    margin-top: 7px;
+    margin-bottom: 10px;
+}
+
+.heading{
+    text-align: left;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    font-size: 18px;
+    color: #6a6969;
+    background-color: white;
+    padding: 15px;
+    padding-left: 10px;
+    padding-top: 15px;
+}
+
+.para{
+    background-color: white;
+    padding: 3px 10px;
+    font-family: segoe UI;
+    font-size: 14px;
+}
+
+span{
+    background-color: white;
+    padding-left: 7px;
+}
+
+.para2{
+    padding-top: 15px;
+}
+
+#para4{
+    padding-bottom: 0;
+}
+
+.footer{
+    width: 100%;
+    background-color: white;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    font-family:segoe UI;
+    font-size: 14px;
+    color: #5c5c5c;
+    padding-bottom: 20px;
+    padding-top: 0;
+}
+
+

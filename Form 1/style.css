@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* background-color: black; */
+}
+
+.container{
+    width: 50%;
+    /* height: 100%; */
+    background-color: rgb(119, 182, 254);
+    margin: 0 auto;
+}
+
+.container>h1{
+    font-size: 45px;
+    text-align: center;
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 9px;
+}
+
+.container>hr{
+    margin: 0 40px;
+}
+
+.form{
+    width: 90%;
+    /* height: 100vh; */
+    /* border: 1px solid black; */
+    margin:  30px auto;
+    margin-top: 10px;
+}
+
+.name{
+    width: 100%;
+    margin-bottom: 20px;
+    
+    /* background-color: rgb(83, 60, 32); */
+}
+
+.form> h2{
+    color: white;
+    padding-bottom: 5px;
+    padding-top: 20px;
+}
+
+.name{
+    display: flex;
+}
+
+.left>input{
+    margin-right: 20px;
+    border-radius: 5px;
+    border: 1px solid white;
+    padding: 8px 45px;
+}
+
+.left>p{
+    color: white;
+    font-size: 14px;
+    padding-top: 3px;
+    padding-left: 2px;
+}
+
+.right>input{
+    margin-right: 20px;
+    border-radius: 5px;
+    border: 1px solid white;
+    padding: 8px 45px;
+}
+
+.right>p{
+    color: white;
+    font-size: 14px;
+    padding-top: 3px;
+    padding-left: 2px;
+}
+
+.address>input{
+    margin-right: 20px;
+    border-radius: 5px;
+    border: 1px solid white;
+    padding: 8px 45px;
+    width: 80%;
+}
+
+.address>p{
+    color: white;
+    font-size: 14px;
+    padding-top: 3px;
+    padding-left: 2px;
+    margin-bottom: 10px;
+}
+
+.city{
+    display: flex;
+}
+
+.city>.left>p{
+    color: white;
+    font-size: 14px;
+    padding-top: 3px;
+    padding-left: 2px;
+    margin-bottom: 10px;
+}
+
+.city>.right>p{
+    color: white;
+    font-size: 14px;
+    padding-top: 3px;
+    padding-left: 2px;
+}
+
+#country{
+    border-radius: 5px;
+    border: 1px solid white;
+    padding: 8px;
+    width: 93%;
+    color: rgb(175, 174, 174);
+    margin-top: 20px;
+   
+}
+
+.country>p{
+    color: white;
+    font-size: 14px;
+    padding-top: 3px;
+    padding-left: 3px;
+    /* margin-bottom: 20px; */
+}
+
+.contact{
+    display: flex;
+}
+
+.details>label{
+    color: white;
+}
+
+.ratings>label{
+    font-size: 14px;
+    color: white;
+
+}
+
+span{
+    font-weight: 900;
+}
+
+.ratings>label>input{
+    margin-left: 40px;
+}
+
+button{
+   padding: 5px 10px;
+   margin: 15px 320px;
+   border-radius: 8px;
+   border: 1px solid rgb(207, 207, 207);
+   background-color: rgb(33, 33, 254);
+   font-size: 23px;
+   color: white;
+   cursor: pointer;
+}

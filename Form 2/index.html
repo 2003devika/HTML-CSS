@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Form 2</title>
+</head>
+<body>
+    <h1>Good Vibes Form</h1>
+
+    <div class="container">
+        <p>Tell us something positive that happend to you today. </p>
+
+        <div class="info">
+            
+            <label for="name"> Name 
+                <input type="text" id="name" name="name"  placeholder="Enter your name">
+            </label><br><br>
+
+            <label for="email"> Email
+                <input type="text" id="email" name="email"  placeholder="Enter your email address">
+            </label>
+
+        </div>
+
+
+        <div class="info2">
+            <label for="scale"> On a scale of 1-10 , how good was it?
+                <input type="text" id="scale" placeholder="Enter a number between 1-10">
+            </label>
+        </div>
+
+        <div class="info3">
+            <label for="things"> Where did it happen?
+               <select name="" id="">
+                <option value="">At Home</option>
+                <option value="">At School</option>
+                <option value="">At College</option>
+                <option value="">At Park</option>
+               </select>
+            </label>
+        </div>
+
+        <div class="info4">
+            <div class="left">
+                <label for="time">At what time of day did it happen? </label>
+            </div>
+
+            <div class="right">
+                <input type="radio" name="time" id="morning"> Morning<br>
+                <input type="radio" name="time" id="afternoon"> Afternoon<br>
+                <input type="radio" name="time" id="evening"> Evening           
+            </div>
+        </div>
+
+        <div class="info5">
+            <div class="left">
+                <label for="emotions">What emotions did you experience?<br>
+                    <span>(Select all that apply)</span>
+                </label>
+            </div>
+
+            <div class="right">
+                <input type="checkbox" name="excited" id="emotions"> Excited <br>
+                <input type="checkbox" name="humbled" id="emotions"> Humbled <br>
+                <input type="checkbox" name="elated" id="emotions"> Elated <br>
+                <input type="checkbox" name="loved" id="emotions"> Loved <br>
+                <input type="checkbox" name="enthusiastic" id="emotions"> Enthusiastic
+            </div>
+        </div>
+
+        <div class="info6">
+            <div class="left">
+                <label for="">
+                    Please describe your positive experience.
+                </label>
+            </div>
+            <div class="right">
+                <textarea name="" id="" cols="30" rows="10" placeholder="Enter your experience here..."></textarea>
+            </div>
+        </div>
+
+        <button class="btn">Submit</button>
+        
+    </div>
+</body>
+</html>
